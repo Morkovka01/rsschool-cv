@@ -1,4 +1,5 @@
 # ***Aleksandra Luniova***
+![Photo](/rsschool-cv/me.jpg)
 ### My contacts for communication
    - *my location* - Gomel, Belarus
    - *my mail* - Santa.Clays@icloud.com
