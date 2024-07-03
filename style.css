@@ -1,0 +1,12 @@
+@font-face {
+   font-family: BonaNovaSC-Italic;
+   src: url("assets/fonts/BonaNovaSC-Italic.ttf");
+ }
+
+ body {
+   font-family: BonaNovaSC-Italic;
+ }
+
+ * {
+   box-sizing: border-box;
+ }
