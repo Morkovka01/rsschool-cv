@@ -1,5 +1,5 @@
 # ***Aleksandra Luniova***
-![Photo](/rsschool-cv/me.jpg)
+![Photo](/rsschool-cv/img/me.jpg)
 
 ### My contacts for communication
 
