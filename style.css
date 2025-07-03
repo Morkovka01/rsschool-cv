@@ -1,3 +1,78 @@
-html {
-    display: flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: radial-gradient(60% 215.42% at 0% 0%, #a92b2b 0%, #3d0407c8 100%);
+
+}
+
+.wrapper {
+    max-width: 1280px;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+  /*========Blok Header========*/
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  h1 {
+    padding: 20px;
+    border-block-end: solid 2px;
+  }
+
+nav {
+    align-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+  nav ul {
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+}
+
+  /*========Blok Main========*/
+
+  main {
+    padding: 10px;
+  }
+
+  .aboutyourself {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.myPhoto {
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.information {
+    padding: 20px;
+}
+
+h2 {
+    padding: 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+  /*========Blok Project========*/
