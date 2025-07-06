@@ -94,7 +94,25 @@ li {
 
 .project {
   padding: 30px;
-  align-content: center;
+}
+
+.markdown {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.markdown:hover {
+    border-block-end: solid 1px;
+}
+
+.shelter {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.shelter:hover {
+    border-block-end: solid 1px;
+
 }
 
 .skills {
@@ -125,6 +143,8 @@ footer {
 
 .logo {
   margin: 0%;
+  width: 115px;
+  height: 40px;
 }
 
 .github {
