@@ -19,4 +19,4 @@
    - CSS
 
 ### Completed project
-   - *This CV#1. Markdown & Git*
+   - *This CV#1. Markdown  Git*
