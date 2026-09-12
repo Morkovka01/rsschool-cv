@@ -23,8 +23,6 @@ html {
   /*========Blok Header========*/
 
   header {
-    display: flex;
-    justify-content: space-around;
     padding: 20px;
   }
 
@@ -35,6 +33,102 @@ html {
 
 ul {
     display: flex;
-    gap: 18px;
     list-style-type: none;
+}
+/*========Blok Main========*/
+
+  .aboutyourself {
+    display: flex;
+  }
+
+.avatar {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    padding: 15px;
+    cursor: default;
+}
+
+p {
+    font-size: 20px;
+    cursor: default;
+}
+
+li {
+  font-size: 20px;
+  cursor: default;
+}
+
+.other {
+  display: flex;
+  padding: 30px 0px;
+}
+
+.project {
+}
+
+.shelter {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.shelter:hover {
+    border-block-end: solid 1.5px;
+}
+
+.museum {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.museum:hover {
+    border-block-end: solid 1.5px;
+}
+
+.portfolio {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.portfolio:hover {
+    border-block-end: solid 1.5px;
+}
+
+.skills {
+}
+
+.mycontacts {
+}
+
+  /*========Blok Footer========*/
+
+footer {
+    display: flex;
+    padding: 30px 130px 20px 90px;
+    justify-content: space-between;
+  }
+
+.footer1 {
+  display: flex;
+  width: 175px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0%;
+}
+
+.logo {
+  margin: 0%;
+  width: 115px;
+  height: 40px;
+}
+
+.github {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+.github:hover {
+    border-block-end: solid 1px;
 }
