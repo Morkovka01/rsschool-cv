@@ -1,0 +1,40 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+html {
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: radial-gradient(60% 215.42% at 0% 0%, #d4210dd8 0%, #b8646491 100%);
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+  body {
+      max-width: 1280px;
+  }
+
+  /*========Blok Header========*/
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  h1 {
+    border-block-end: solid 2px;
+    cursor: default;
+  }
+
+ul {
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+}
