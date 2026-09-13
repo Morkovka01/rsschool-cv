@@ -1,0 +1,127 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+html {
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: radial-gradient(60% 215.42% at 0% 0%, #d4210dd8 0%, #b8646491 100%);
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+      max-width: 1280px;
+  }
+
+  /*========Blok Header========*/
+
+header {
+    padding: 20px 0px;
+  }
+
+h1 {
+    border-block-end: solid 2px;
+    cursor: default;
+  }
+.ul-header {
+    display: flex;
+    list-style-type: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*========Blok Main========*/
+
+.aboutyourself {
+    display: flex;
+  }
+
+.avatar {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    padding: 15px;
+    cursor: default;
+}
+
+p {
+    font-size: 20px;
+    cursor: default;
+}
+
+li {
+  font-size: 20px;
+  cursor: default;
+}
+
+.other {
+  display: flex;
+  padding: 30px 0px;
+}
+
+.shelter {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.shelter:hover {
+    border-block-end: solid 1.5px;
+}
+
+.museum {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.museum:hover {
+    border-block-end: solid 1.5px;
+}
+
+.portfolio {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.portfolio:hover {
+    border-block-end: solid 1.5px;
+}
+
+  /*========Blok Footer========*/
+
+footer {
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-around;
+  }
+
+.footer1 {
+  display: flex;
+  margin: 0%;
+  gap: 15px;
+}
+
+.logo {
+  margin: 0%;
+  width: 115px;
+  height: 40px;
+}
+
+.github {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+.github:hover {
+    border-block-end: solid 1px;
+}
