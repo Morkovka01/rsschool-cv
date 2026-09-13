@@ -16,28 +16,32 @@ html {
     overflow-x: hidden;
 }
 
-  body {
+body {
       max-width: 1280px;
   }
 
   /*========Blok Header========*/
 
-  header {
-    padding: 20px;
+header {
+    padding: 20px 0px;
   }
 
-  h1 {
+h1 {
     border-block-end: solid 2px;
     cursor: default;
   }
-
-ul {
+.ul-header {
     display: flex;
     list-style-type: none;
 }
+
+ul {
+  list-style: none;
+}
+
 /*========Blok Main========*/
 
-  .aboutyourself {
+.aboutyourself {
     display: flex;
   }
 
@@ -64,9 +68,6 @@ li {
 .other {
   display: flex;
   padding: 30px 0px;
-}
-
-.project {
 }
 
 .shelter {
@@ -96,26 +97,18 @@ li {
     border-block-end: solid 1.5px;
 }
 
-.skills {
-}
-
-.mycontacts {
-}
-
   /*========Blok Footer========*/
 
 footer {
     display: flex;
-    padding: 30px 130px 20px 90px;
-    justify-content: space-between;
+    padding: 50px 20px;
+    justify-content: space-around;
   }
 
 .footer1 {
   display: flex;
-  width: 175px;
-  align-items: center;
-  justify-content: space-between;
   margin: 0%;
+  gap: 15px;
 }
 
 .logo {
